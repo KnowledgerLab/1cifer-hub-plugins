@@ -1,5 +1,55 @@
 {
   "name": "1Cifer Plugins (official)",
   "schema": 1,
-  "plugins": []
+  "plugins": [
+    {
+      "id": "gov-portal",
+      "name": "Госпорталы РК",
+      "version": "0.4.7",
+      "tier": "official",
+      "description": "Госпорталы Казахстана в 1cifer: агент читает Кабинет налогоплательщика, ЭСФ, госзакупки, egov, суд и Электронную биржу труда (enbek.kz: вакансии, отклики, трудовые договоры); счета-фактуры ИС ЭСФ — по API, включая выписку и отзыв с подтверждением. Несколько организаций, у каждой свой ключ. Вход телефоном по QR или сохранённой ЭЦП.",
+      "i18n": {
+        "en": {
+          "description": "Kazakhstan government portals in 1cifer: the agent reads the taxpayer cabinet, e-invoices, procurement, egov, courts and the Electronic labour exchange (enbek.kz: vacancies, responses, employment contracts); ESF invoices via the API, including issuing and revoking with approval. Several organizations, each with its own key. Sign in with your phone via QR or with a stored digital signature."
+        },
+        "kk": {
+          "description": "1cifer-дегі Қазақстан мемлекеттік порталдары: агент салық төлеуші кабинетін, ЭШФ, сатып алуды, egov, сотты және Электрондық еңбек биржасын (enbek.kz: бос орындар, үн қатулар, еңбек шарттары) оқиды; ЭШФ шот-фактуралары — API арқылы, растаумен жазып беру мен кері қайтаруды қоса. Бірнеше ұйым, әрқайсысының өз кілті. QR арқылы телефонмен немесе сақталған ЭЦҚ-мен кіру."
+        },
+        "zh": {
+          "description": "1cifer 中的哈萨克斯坦政务门户：智能体读取纳税人办公室、电子发票、采购、egov、法院和电子劳动交易所（enbek.kz：职位、应聘回复、劳动合同）；ESF 电子发票通过 API 处理，包括经确认的开具与撤销。支持多个组织，各自拥有密钥。通过手机扫码或已保存的数字签名登录。"
+        }
+      },
+      "permissions": [
+        "runtime.browser",
+        "spawn.sidecar",
+        "tools.register",
+        "net.egress"
+      ],
+      "icon": "",
+      "downloads": {
+        "darwin-arm64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/gov-portal-v0.4.7/gov-portal-0.4.7-darwin-arm64.zip",
+        "darwin-x64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/gov-portal-v0.4.7/gov-portal-0.4.7-darwin-x64.zip"
+      },
+      "egress": [
+        "egov.kz",
+        "*.egov.kz",
+        "*.gov.kz",
+        "zakup.gov.kz",
+        "knp.kgd.gov.kz",
+        "esf.gov.kz",
+        "*.efinance.gov.kz",
+        "did.gov.kz",
+        "sud.kz",
+        "*.sud.kz",
+        "portal-sot.kz",
+        "*.portal-sot.kz",
+        "eotinish.kz",
+        "*.eotinish.kz",
+        "enbek.kz",
+        "*.enbek.kz",
+        "pki.gov.kz",
+        "*.pki.gov.kz"
+      ]
+    }
+  ]
 }

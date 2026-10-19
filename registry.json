@@ -77,7 +77,8 @@
       "icon": "",
       "downloads": {
         "darwin-arm64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/kaspi-pay-v0.1.0/kaspi-pay-0.1.0-darwin-arm64.zip",
-        "darwin-x64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/kaspi-pay-v0.1.0/kaspi-pay-0.1.0-darwin-x64.zip"
+        "darwin-x64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/kaspi-pay-v0.1.0/kaspi-pay-0.1.0-darwin-x64.zip",
+        "win32-x64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/kaspi-pay-v0.1.0/kaspi-pay-0.1.0-win32-x64.zip"
       },
       "egress": [
         "pay.kaspi.kz",

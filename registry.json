@@ -53,6 +53,39 @@
         "pay.kaspi.kz",
         "*.kaspi.kz"
       ]
+    },
+    {
+      "id": "kaspi-pay",
+      "name": "Kaspi Pay",
+      "version": "0.1.0",
+      "tier": "official",
+      "description": "Kaspi Pay в 1cifer: выписки по счетам юрлиц из кабинета pay.kaspi.kz — для сверки поступлений и архива бухгалтерии. Один логин — несколько компаний, каждая привязывается к своей компании 1cifer. Вход номером и паролем, затем QR в приложении Kaspi. Только чтение, платежей нет.",
+      "i18n": {
+        "en": {
+          "description": "Kaspi Pay in 1cifer: account statements of legal entities from the pay.kaspi.kz cabinet — for reconciling incoming payments and the accounting archive. One login, several companies, each bound to its own 1cifer company. Sign in with number and password, then a QR in the Kaspi app. Read-only, no payments."
+        },
+        "kk": {
+          "description": "1cifer-дегі Kaspi Pay: pay.kaspi.kz кабинетінен заңды тұлғалардың шот үзінділері — түсімдерді салыстыру және бухгалтерия мұрағаты үшін. Бір логин — бірнеше компания, әрқайсысы өз 1cifer компаниясына байланады. Нөмір мен құпиясөзбен, содан кейін Kaspi қосымшасындағы QR арқылы кіру. Тек оқу, төлемдер жоқ."
+        },
+        "zh": {
+          "description": "1cifer 中的 Kaspi Pay：从 pay.kaspi.kz 后台读取法人账户对账单，用于核对收款和会计存档。一个登录账号可对应多家公司，每家绑定到各自的 1cifer 公司。用手机号和密码登录，然后在 Kaspi 应用中扫码。只读，不支持付款。"
+        }
+      },
+      "permissions": [
+        "runtime.browser",
+        "spawn.sidecar",
+        "tools.register",
+        "net.egress"
+      ],
+      "icon": "",
+      "downloads": {
+        "darwin-arm64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/kaspi-pay-v0.1.0/kaspi-pay-0.1.0-darwin-arm64.zip",
+        "darwin-x64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/kaspi-pay-v0.1.0/kaspi-pay-0.1.0-darwin-x64.zip"
+      },
+      "egress": [
+        "pay.kaspi.kz",
+        "*.kaspi.kz"
+      ]
     }
   ]
 }

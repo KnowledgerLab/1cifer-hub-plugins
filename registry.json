@@ -5,7 +5,7 @@
     {
       "id": "gov-portal",
       "name": "Госпорталы РК",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "tier": "official",
       "description": "Госпорталы Казахстана в 1cifer: агент читает Кабинет налогоплательщика, ЭСФ, госзакупки, egov, суд и Электронную биржу труда (enbek.kz: вакансии, отклики, трудовые договоры); счета-фактуры ИС ЭСФ — по API, включая выписку и отзыв с подтверждением. Несколько организаций, у каждой свой ключ. Вход телефоном по QR или сохранённой ЭЦП.",
       "i18n": {
@@ -27,9 +27,8 @@
       ],
       "icon": "",
       "downloads": {
-        "darwin-arm64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/gov-portal-v0.5.0/gov-portal-0.5.0-darwin-arm64.zip",
-        "darwin-x64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/gov-portal-v0.5.0/gov-portal-0.5.0-darwin-x64.zip",
-        "win32-x64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/gov-portal-v0.5.0/gov-portal-0.5.0-win32-x64.zip"
+        "darwin-arm64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/gov-portal-v0.5.1/gov-portal-0.5.1-darwin-arm64.zip",
+        "darwin-x64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/gov-portal-v0.5.1/gov-portal-0.5.1-darwin-x64.zip"
       },
       "egress": [
         "egov.kz",
@@ -49,9 +48,7 @@
         "enbek.kz",
         "*.enbek.kz",
         "pki.gov.kz",
-        "*.pki.gov.kz",
-        "pay.kaspi.kz",
-        "*.kaspi.kz"
+        "*.pki.gov.kz"
       ]
     },
     {

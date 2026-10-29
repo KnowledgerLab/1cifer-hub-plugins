@@ -55,7 +55,7 @@
     {
       "id": "kaspi-pay",
       "name": "Kaspi Pay",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "tier": "official",
       "description": "Kaspi Pay в 1cifer: выписки по счетам юрлиц из кабинета pay.kaspi.kz — для сверки поступлений и архива бухгалтерии. Один логин — несколько компаний, каждая привязывается к своей компании 1cifer. Вход номером и паролем, затем QR в приложении Kaspi. Только чтение, платежей нет.",
       "i18n": {
@@ -77,9 +77,7 @@
       ],
       "icon": "",
       "downloads": {
-        "darwin-arm64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/kaspi-pay-v0.1.1/kaspi-pay-0.1.1-darwin-arm64.zip",
-        "darwin-x64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/kaspi-pay-v0.1.1/kaspi-pay-0.1.1-darwin-x64.zip",
-        "win32-x64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/kaspi-pay-v0.1.1/kaspi-pay-0.1.1-win32-x64.zip"
+        "win32-x64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/kaspi-pay-v0.1.2/kaspi-pay-0.1.2-win32-x64.zip"
       },
       "egress": [
         "pay.kaspi.kz",

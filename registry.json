@@ -5,7 +5,7 @@
     {
       "id": "gov-portal",
       "name": "Госпорталы РК",
-      "version": "0.5.3",
+      "version": "0.5.4",
       "tier": "official",
       "description": "Госпорталы Казахстана в 1cifer: агент читает Кабинет налогоплательщика, ЭСФ, госзакупки, egov, суд и Электронную биржу труда (enbek.kz: вакансии, отклики, трудовые договоры); счета-фактуры ИС ЭСФ — по API, включая выписку и отзыв с подтверждением. Несколько организаций, у каждой свой ключ. Вход телефоном по QR или сохранённой ЭЦП.",
       "i18n": {
@@ -27,7 +27,7 @@
       ],
       "icon": "",
       "downloads": {
-        "win32-x64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/gov-portal-v0.5.3/gov-portal-0.5.3-win32-x64.zip"
+        "win32-x64": "https://github.com/KnowledgerLab/1cifer-hub-plugins/releases/download/gov-portal-v0.5.4/gov-portal-0.5.4-win32-x64.zip"
       },
       "egress": [
         "egov.kz",
